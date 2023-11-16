@@ -1,0 +1,58 @@
+body {
+    font-family: "Lucida Console", "Courier New", monospace;
+    background: linear-gradient(120deg, #2980b9, #8e44ad);
+    padding: 100px;
+}
+
+.nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.nav li {
+    margin-right: 20px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav-link svg {
+    width: 30px;
+    height: 30px;
+    margin-bottom: -10px;
+}
+
+.nav-link p {
+    margin: 0;
+}
+
+.nav-item.active-pro {
+    margin-top: 20px;
+}
+
+.nav-link.active {
+    color: #007bff;
+}
+
+.container {
+    background: #e7baed;
+    padding: 25px 40px 10px 40px;
+    box-shadow: 10px 10px 10px rgba(204, 95, 29534, 0.1);
+}
+
+.container .text {
+    text-align: center;
+    font-size: 41px;
+    font-weight: 600;
+    font-family: "Lucida Console", "Courier New", monospace;
+    background: -webkit-linear-gradient(right, #56d8e4, #9f01ea, #56d8e4, #9f01ea);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
